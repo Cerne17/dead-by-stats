@@ -89,12 +89,13 @@ The script will log its progress in the terminal. Upon successful completion, it
 
 ### Creating the Perk Lookup Table
 
-After running the main scrapper, you can generate a lookup table that maps perk IDs to their names. This is useful for joining the scraped data with perk metadata.
+The `perks_labels.csv` file, which maps perk IDs to their names, is included in this repository. It is generated from `perks_data.json`, which is a manually extracted file from `Nightlight.gg`.
+
+If the game updates and you need to regenerate this file with new data, you must first manually obtain an updated `perks_data.json` file. Once you have this file, you can run the following command to create a new lookup table:
 
 ```bash
 python scrapper/create-lookup.py
 ```
-This will generate the `perks_labels.csv` file in the `scrapper/` directory.
 
 ## 📈 Next Steps
 
