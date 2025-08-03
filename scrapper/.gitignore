@@ -1,5 +1,8 @@
-# Ignore generated data files, but not the lookup table
+# Ignore generated data files, but not the essential ones
 *.csv
 !perks_labels.csv
+!killer_perks.csv
+!survivor_perks.csv
+
 perks_data.json
 request.txt
