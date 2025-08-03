@@ -1,0 +1,294 @@
+id,label
+1,Dark Sense
+2,Deja Vu
+3,Hope
+4,Lightweight
+5,No One Left Behind
+6,Plunderer's Instinct
+7,Premonition
+8,Resilience
+9,Slippery Meat
+10,Small Game
+11,Spine Chill
+12,This Is Not Happening
+13,We'll Make It
+14,Kindred
+15,Bitter Murmur
+16,Deerstalker
+17,Distressing
+18,Hex: No One Escapes Death
+19,Insidious
+20,Iron Grasp
+21,Scourge Hook: Monstrous Shrine
+22,Sloppy Butcher
+23,Spies from the Shadows
+24,Unrelenting
+25,Whispers
+26,Hex: Thrill of the Hunt
+27,Bond
+28,Leader
+29,Prove Thyself
+30,Adrenaline
+31,Quick & Quiet
+32,Sprint Burst
+33,Botany Knowledge
+34,Empathy
+35,Self-Care
+36,Calm Spirit
+37,Iron Will
+38,Saboteur
+39,Agitation
+40,Brutal Strength
+41,Unnerving Presence
+42,Bloodhound
+43,Predator
+44,Shadowborn
+45,Enduring
+46,Lightborn
+47,Tinkerer
+48,A Nurse's Calling
+49,Stridor
+50,Thanatophobia
+51,Balanced Landing
+52,Streetwise
+53,Urban Evasion
+54,Dying Light
+55,Play With Your Food
+56,Save the Best for Last
+57,Decisive Strike
+58,Object of Obsession
+59,Sole Survivor
+60,Hex: Devour Hope
+61,Hex: Ruin
+62,Hex: The Third Seal
+63,Ace in the Hole
+64,Open-Handed
+65,Up the Ante
+66,Borrowed Time
+67,Left Behind
+68,Unbreakable
+69,Overcharge
+70,Monitor & Abuse
+71,Overwhelming Presence
+72,Alert
+73,Lithe
+74,Technician
+75,Beast of Prey
+76,Hex: Huntress Lullaby
+77,Territorial Imperative
+78,Dead Hard
+79,No Mither
+80,We're Gonna Live Forever
+81,Barbecue & Chili
+82,Franklin's Demise
+83,Knock Out
+84,Blood Warden
+85,Fire Up
+86,Remember Me
+87,Pharmacy
+88,Vigil
+89,Wake Up!
+90,Scourge Hook: Hangman's Trick
+91,Make Your Choice
+92,Surveillance
+93,Detective's Hunch
+94,Stake Out
+95,Tenacity
+96,Bamboozle
+97,Coulrophobia
+98,Pop Goes the Weasel
+99,Boil Over
+100,Dance With Me
+101,Windows of Opportunity
+102,Hex: Haunted Ground
+103,Rancor
+104,Spirit Fury
+105,Autodidact
+106,Deliverance
+107,Diversion
+108,Discordance
+109,Iron Maiden
+110,Mad Grit
+111,Aftercare
+112,Breakdown
+113,Distortion
+114,Corrupt Intervention
+115,Dark Devotion
+116,Infectious Fright
+117,Head On
+118,Poised
+119,Solidarity
+120,Buckle Up
+121,Flip-Flop
+122,Mettle of Man
+123,Furtive Chase
+124,I'm All Ears
+125,Thrilling Tremors
+126,Cruel Limits
+127,Mindbreaker
+128,Surge
+129,Better Together
+130,Fixated
+131,Inner Strength
+132,Babysitter
+133,Camaraderie
+134,Second Wind
+135,Blood Echo
+136,Nemesis
+137,Zanshin Tactics
+138,Any Means Necessary
+139,Breakout
+140,Lucky Break
+141,Dead Man’s Switch
+142,Gearhead
+143,Hex: Retribution
+144,For the People
+145,Off the Record
+146,Red Herring
+147,Deathbound
+148,Forced Penance
+149,Trail of Torment
+150,Blood Pact
+151,Repressed Alliance
+152,Soul Guard
+153,Dragon’s Grip
+154,Hex: Blood Favor
+155,Hex: Undying
+156,Built to Last
+157,Desperate Measures
+158,Visionary
+159,Hoarder
+160,Oppression
+161,Coup de Grâce
+162,Appraisal
+163,Deception
+164,Power Struggle
+165,Starstruck
+166,Hex: Crowd Control
+167,No Way Out
+168,Fast Track
+169,Smash Hit
+170,Self-Preservation
+171,Lethal Pursuer
+172,Hysteria
+173,Eruption
+174,Counterforce
+175,Resurgence
+176,Blast Mine
+177,Bite the Bullet
+178,Flashbang
+179,Rookie Spirit
+180,Deadlock
+181,Hex: Plaything
+182,Scourge Hook: Gift of Pain
+183,Clairvoyance
+184,Boon: Circle of Healing
+185,Boon: Shadow Step
+186,Overcome
+187,Corrective Action
+188,Boon: Exponential
+189,Grim Embrace
+190,Scourge Hook: Pain Resonance
+191,Hex: Pentimento
+192,Parental Guidance
+193,Empathic Connection
+194,Boon: Dark Theory
+195,Scourge Hook: Floods of Rage
+196,Call of Brine
+197,Merciless Storm
+198,Inner Focus
+199,Residual Manifest
+200,Overzealous
+201,Dissolution
+202,Darkness Revealed
+203,Septic Touch
+204,Shattered Hope
+205,Wiretap
+206,Reactive Healing
+207,Low Profile
+208,Better Than New
+209,Reassurance
+210,Hyperfocus
+211,Superior Anatomy
+212,Awakened Awareness
+213,Terminus
+214,Potential Energy
+215,Fogwise
+216,Quick Gambit
+217,Nowhere to Hide
+218,Hex: Face the Darkness
+219,Hubris
+220,Cut Loose
+221,Friendly Competition
+222,Teamwork: Power of Two
+223,Background Player
+224,Blood Rush
+225,Teamwork: Collective Stealth
+226,Game Afoot
+227,THWACK!
+228,Leverage
+229,Troubleshooter
+230,Made for This
+231,Scavenger
+232,Genetic Limits
+233,Forced Hesitation
+234,Machine Learning
+235,Dramaturgy
+236,Scene Partner
+237,Plot Twist
+238,Ultimate Weapon
+239,Rapid Brutality
+240,Alien Instinct
+241,Lucky Star
+242,Chemical Trap
+243,Light-footed
+244,Hex: Two Can Play
+245,Friends ‘Til the End
+246,Batteries Included
+247,Champion of Light
+248,Boon: Illumination
+249,Deadline
+250,Unbound
+251,Unforeseen
+252,Undone
+253,Invocation: Weaving Spiders
+254,Strength in Shadows
+255,Wicked
+256,Weave Attunement
+257,Languid Touch
+258,Dark Arrogance
+259,Mirrored Illusion
+260,Bardic Inspiration
+261,Still Sight
+262,Finesse
+263,Hardened
+264,Specialist
+265,Hex: Wretched Fate
+266,Human Greed
+267,Dominance
+268,Eyes of Belmont
+269,Exultation
+270,Moment of Glory
+271,All-Shaking Thunder
+272,Scourge Hook: Jagged Compass
+273,No Quarter
+274,Invocation: Treacherous Crows
+275,Clean Break
+276,Shoulder the Burden
+277,Hex: Nothing But Misery
+278,Forever Entwined
+279,None Are Free
+280,Do No Harm
+281,Duty of Care
+282,Rapid Response
+283,Help Wanted
+284,Phantom Fear
+285,Haywire
+286,Apocalyptic Ingenuity
+287,Come and Get Me!
+288,Teamwork: Toughen Up
+289,Conviction
+290,Last Stand
+291,Teamwork: Throw Down
+-1,None
+-2,Unknown
