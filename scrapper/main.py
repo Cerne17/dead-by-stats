@@ -58,20 +58,26 @@ if __name__ == "__main__":
 
     logging.info("--- Starting Scraper ---")
 
+    # Load the lookup table
+    try:
+        lookup_df = pd.read_csv(LOOKUP_FILE)
+        logging.info("Successfully loaded lookup table from '%s'.", LOOKUP_FILE)
+    except FileNotFoundError:
+        logging.error("Error: The lookup file '%s' was not found.", LOOKUP_FILE)
+        lookup_df = None
+
     survivor_perks_df = scrape_and_process_data(url=API_URL, headers=HEADERS, data_key="top_survivor_perks")
-    if survivor_perks_df is not None:
-        survivor_perks_df.to_csv("survivor_perks.csv", index=False)
+    if survivor_perks_df is not None and lookup_df is not None:
+        survivor_perks_df = pd.merge(survivor_perks_df, lookup_df, left_on='perk_id', right_on='id', how='left')
+        survivor_perks_df.drop(columns=['id'], inplace=True)
+        survivor_perks_df.to_csv("./scrapper/survivor_perks.csv", index=False)
         logging.info("Saved survivor perks to survivor_perks.csv")
 
     killer_perks_df = scrape_and_process_data(url=API_URL, headers=HEADERS, data_key="top_killer_perks")
-    if killer_perks_df is not None:
-        killer_perks_df.to_csv("killer_perks.csv", index=False)
+    if killer_perks_df is not None and lookup_df is not None:
+        killer_perks_df = pd.merge(killer_perks_df, lookup_df, left_on='perk_id', right_on='id', how='left')
+        killer_perks_df.drop(columns=['id'], inplace=True)
+        killer_perks_df.to_csv("./scrapper/killer_perks.csv", index=False)
         logging.info("Saved killer perks to killer_perks.csv")
     
-    # --- How to add more extractions ---
-    # survivor_builds_df = scrape_and_process_data(url=API_URL, headers=HEADERS, data_key="top_survivor_builds")
-    # if survivor_builds_df is not None:
-    #     survivor_builds_df.to_csv("survivor_builds.csv", index=False)
-    #     logging.info("Saved survivor builds to survivor_builds.csv")
-
     logging.info("--- Scraper Finished ---")
