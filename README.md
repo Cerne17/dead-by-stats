@@ -43,7 +43,7 @@ deadbystats/
 ├── scrapper/
 │   ├── .gitignore
 │   ├── main.py
-│   ├── create-lookup.py
+│   ├── create_lookup.py
 │   ├── perks_data.json
 │   ├── killer_perks.csv   (Generated)
 │   ├── survivor_perks.csv (Generated)
@@ -94,7 +94,7 @@ The `perks_labels.csv` file, which maps perk IDs to their names, is included in 
 If the game updates and you need to regenerate this file with new data, you must first manually obtain an updated `perks_data.json` file. Once you have this file, you can run the following command to create a new lookup table:
 
 ```bash
-python scrapper/create-lookup.py
+python scrapper/create_lookup.py
 ```
 
 ## 📈 Next Steps
