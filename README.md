@@ -99,4 +99,12 @@ python scrapper/create_lookup.py
 
 ## 📈 Next Steps
 
-* **ML Model Development:** Begin building the machine learning models to analyze the scraped data.
+The next phase of the project is **Data Enrichment**. This involves improving the dataset by adding categories to each perk (e.g., "Stealth", "Chase", "Slowdown") to enable more granular analysis.
+
+Following that, the project will proceed through these phases:
+*   **Exploratory Data Analysis (EDA)**
+*   **Machine Learning Model Development**
+*   **Insight Generation and Reporting**
+*   **Data Visualization**
+
+For a full breakdown of the project's phases, see `PHASES.md`.
