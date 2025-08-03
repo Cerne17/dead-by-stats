@@ -1,4 +1,5 @@
+# Ignore generated data files, but not the lookup table
 *.csv
+!perks_labels.csv
 perks_data.json
-
 request.txt
