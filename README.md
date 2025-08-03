@@ -43,8 +43,11 @@ deadbystats/
 ├── scrapper/
 │   ├── .gitignore
 │   ├── main.py
+│   ├── create-lookup.py
+│   ├── perks_data.json
 │   ├── killer_perks.csv   (Generated)
-│   └── survivor_perks.csv (Generated)
+│   ├── survivor_perks.csv (Generated)
+│   └── perks_labels.csv   (Generated)
 ├── requirements.txt
 └── README.md
 ```
@@ -84,7 +87,15 @@ python scrapper/main.py
 ```
 The script will log its progress in the terminal. Upon successful completion, it will generate or update `survivor_perks.csv` and `killer_perks.csv` inside the `scrapper/` directory.
 
-## 📈 Next Steps
-* **Perk Metadata:** Develop a secondary script to create a "lookup table" that maps perk_id to its name, description, and image.
-* **ML Model Development:** Begin building the machine learning models to analyze the scraped data.
+### Creating the Perk Lookup Table
 
+After running the main scrapper, you can generate a lookup table that maps perk IDs to their names. This is useful for joining the scraped data with perk metadata.
+
+```bash
+python scrapper/create-lookup.py
+```
+This will generate the `perks_labels.csv` file in the `scrapper/` directory.
+
+## 📈 Next Steps
+
+* **ML Model Development:** Begin building the machine learning models to analyze the scraped data.
