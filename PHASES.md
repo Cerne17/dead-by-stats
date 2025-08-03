@@ -11,7 +11,8 @@ This document outlines the development phases for the Dead by Daylight Meta-Anal
 
 ## Phase 2: Data Enrichment
 
-- [ ] **Improve the data set:** Include the individual perks categories for survivors (stealth, bloodpoints farming, chase, solo, survive with friends, trolling) and killers (bloodpoints farming, slowdown, chase, information, and trolling)
+- [ ] **Add "perk categories":** Include the individual perks categories for survivors (stealth, bloodpoints farming, chase, solo, survive with friends, trolling) and killers (bloodpoints farming, slowdown, chase, information, and trolling)
+- [ ] **Add "perk types":** Perk types are the following: Boon, Hex, Invocation, Obsession, Scourge Hook and Teamwork. The perk types are defined by the game developers itself, different than the perk categories that are related to how the players interact with them.
 
 ## Phase 3: Exploratory Data Analysis (EDA)
 
